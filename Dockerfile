@@ -1,2 +1,2 @@
-FROM nginx:alpine
-COPY ./default.conf /etc/nginx/conf.d/
+FROM tomcat:8
+COPY target/*.war /usr/local/tomcat/web/web.war
