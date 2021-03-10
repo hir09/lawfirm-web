@@ -1,4 +1,4 @@
 FROM nginx
 COPY . /usr/share/nginx/html
-RUN cat /index.html
+RUN . /index.html
 
