@@ -1,3 +1,3 @@
 FROM tomcat:8
 MAINTAINER NewstarCorporation
-COPY * /var/www/html/
+COPY */var/www/html/
