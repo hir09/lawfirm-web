@@ -1,4 +1,4 @@
 FROM tomcat:8
-COPY target/*.war /usr/local/tomcat/web/web.war
+COPY . /path/to/dir/in/image
 # Added to test webhook
 
